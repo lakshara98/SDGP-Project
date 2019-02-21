@@ -105,3 +105,4 @@ def create_model(vocab_size, embedding_size, LR, rnn_layers, rnn_size, embedding
 
     K.set_value(model.optimizer.lr, np.float32(LR))
     return model
+#test commit

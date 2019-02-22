@@ -11,7 +11,7 @@ path_logs = path.join(path_models, 'logs')
 path_img = path.join(path_recipe_box_data, 'img')
 path_outputs = path.join(path_base, 'outputs')
 
-# verify output path exists otherwise make it
+# verify output path exists otherwise make it 123
 for p in [path_data, path_outputs, path_models, path_logs, path_img]:
     if not path.exists(p):
         makedirs(p)
